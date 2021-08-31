@@ -1,0 +1,6 @@
+id,name,email,phone,degree,major,institute,title,company,skills
+1,Candidate A,sample1@skillate.com,+91 998877 6655,B. Tech,Computer Science & Engineering,PESIT,Machine Learning Engineer,Skillate,"Python,Django, Tensorflow"
+2,Candidate B,sample2@skillate.com,,BTech,CS,IIT-Madras,Data Engineer,Skillate,"Python, Tensorflow"
+3,Candidate C,,(+91)9988776655,B.E,C.S.E,"IIT, Delhi",Backend Engineer,Skillate,"Java, MySQl,RabbitMQ"
+4,Candidate D,,,B. Tech,Computer Science & Engineering,PESIT,Machine Learning Engineer,Skillate,"Python,Django, Tensorflow"
+5,Candidate E,sample5@skillate.com,112334455,MBA,Sales and Marketing,NIT Suratkal,Sales Manager,Skillate,Sales
