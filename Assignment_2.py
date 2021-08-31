@@ -23,7 +23,7 @@ scores_august = [
 import csv
 import os
 
-scores_doc = """ \nQ2. Convert the above data structures to the following format
+scores_doc = """ \n Q2 (a). Convert the above data structures to the following format
 scores = [
     ("maths", 91, 97),
     ("english", 89, 85),
@@ -34,7 +34,7 @@ scores = [
     ("sports", 92, None),
 ] \n"""
 
-scores_2_doc = """ \n Q3. Convert the above data structures to the following format
+scores_2_doc = """ \n Q2 (b). Convert the above data structures to the following format
 scores_2 = [
     {"subject": "maths", "july": 91, "august": 97},
     {"subject": "english", "july": 89, "august": 85},
@@ -45,7 +45,7 @@ scores_2 = [
     {"subject": "sports", "july": 92, "august": None},
 ] \n"""
 
-csv_dump_doc = """ Dump the results to CSV in this format
+csv_dump_doc = """\n Q2 (c). Dump the results to CSV in this format
 subject         | july  | august    |
 -------------------------------------
 maths           | 91    | 97        |
@@ -135,13 +135,13 @@ def csv_dump():
 # ----------------------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------------------
 if __name__ == "__main__":
-    # Q2
+    # Q2 (a)
     student_score = scores(scores_july[0], scores_august[0])
     print(f"\nscores = {student_score}\n")
 
-    # Q3
+    # Q2 (b)
     student_score_2 = scores_2(student_score)
     print(f"scores_2 = {student_score_2}\n")
 
-    # CSV Dump
+    # Q2 (c)
     csv_dump()
